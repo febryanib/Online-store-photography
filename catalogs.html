@@ -1,76 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Catalogs</title>
-    <link  href="style-catalogs.css" rel="stylesheet">
+    <link rel="stylesheet" href="style-catalogs.css">
+    <link href="bootstrap-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    
+    <style>*{
+font-family: "Poppins", sans-serif;
+    }
+    </style>
 
-    </head>
+</head>
     
 <body>
-    <nav class="navbar navbar-expand navbar-light sticky-top" style="background-color:blanchedalmond;">
-        <a class="navbar-brand">
-            <img class="img-container" src="Images/logo.png" width="30" height="30" class="d-inline-block align-top" alt title="Main Menu">
-        </a>
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Main menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="catalogs.html">Catalogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="carts.html">Carts</a>
-            </li>
-          </ul>
-      </nav>
+    <nav class="navbar">
+    </a>
+    <a class="navbar-brand">
+      <img class="img-container" src="Images/logo.png" alt title="Main Menu">
 
-    <h1 style="text-align: center;">Landscapes Photography</h1>
-    <div class="row">
-        <div class="column">
-            <div class="content">
-                    <a href="cathedral.html" target="_blank">
-                        <img src="Images/Landscape/IMG_4341.jpeg" alt title="More Information">
-                    </a>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Main menu <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="catalogs.html">Catalogs</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="carts.html">Carts</a>
+        </li>
+      </ul>
+  </nav>
+<div class="main-title">
+    <h1>Landscapes Photography</h1>
+</div>
+    <!--Test product catalog-->
+    <div id="body">
+    <div class="cont">
+        <div class="prod">
+            <div class="prod-card">
+                <h2 class="name"> Cathedral</h2>
+                <span class="price">$250.00</span>
+                <a class="popup-btn">View details</a>
+                <img src="Images/Landscape/IMG_4341.jpeg" class="product-img" alt title="">
+            </div>
+            <div class="popup-view">
+                <div class="popup-card">
+                    <a> <i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                        <img src="Images/Landscape/IMG_4341.jpeg" alt title="">
+                    </div>
+                    <div class="info">
+                        <h2>Cathedral<br><span>Moscow,Russia (2017)</span></h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                            aliquip ex ea commodo consequat. </p>
+                        <span class="price">$250.00</span>
+                        <a href="#" class="buy-btn">Buy</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="column">
-            <div class="content"> 
-                <a href="peterhof.html" target="_blank">
-                    <img src="Images/Landscape/IMG_0162.jpeg", alt title="More Information">
-                </a>
+        <div class="prod">
+            <div class="prod-card">
+                <h2 class="name"> Peterhof</h2>
+                <span class="price">$250.00</span>
+                <a class="popup-btn">View details</a>
+                <img src="Images/Landscape/IMG_0162.jpeg" class="product-img" alt title="">
+            </div>
+            <div class="popup-view">
+                <div class="popup-card">
+                    <a> <i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                        <img src="Images/Landscape/IMG_0162.jpeg" alt title="">
+                    </div>
+                    <div class="info">
+                        <h2>Peterhof<br><span>St. Petersburg, Russia (2018)</span></h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                        <span class="price">$250.00</span>
+                        <a href="#" class="buy-btn">Buy</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="column">
-            <div class="content">
-                <a href="bridge.html" target="_blank">
-                    <img src="Images/Landscape/IMG_4524.jpeg", alt title="More Information">
-                </a>
+        <div class="prod">
+            <div class="prod-card">
+                <h2 class="name"> Bridge</h2>
+                <span class="price">$250.00</span>
+                <a class="popup-btn">View details</a>
+                <img src="Images/Landscape/IMG_4524.jpeg" class="product-img" alt title="">
+            </div>
+            <div class="popup-view">
+                <div class="popup-card">
+                    <a> <i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                        <img src="Images/Landscape/IMG_4524.jpeg" alt title="">
+                    </div>
+                    <div class="info">
+                        <h2>Bridge<br><span>Moscow, Russia (2017)</span></h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                        <span class="price">$250.00</span>
+                        <a href="#" class="buy-btn">Buy</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="column">
-            <div class="content"> 
-                <a href="aurora.html" target="_blank">
-                    <img src="Images/Landscape/IMG_4439.jpeg", alt title="More Information">
-                </a>
+        <div class="prod">
+            <div class="prod-card">
+                <h2 class="name"> Aurora Borealis</h2>
+                <span class="price">$250.00</span>
+                <a class="popup-btn">View details</a>
+                <img src="Images/Landscape/IMG_4439.jpeg" class="product-img" alt title="">
+            </div>
+            <div class="popup-view">
+                <div class="popup-card">
+                    <a> <i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                        <img src="Images/Landscape/IMG_4439.jpeg" alt title="">
+                    </div>
+                    <div class="info">
+                        <h2>Aurora Borealis <br><span> Murmansk,Russia (2018)</span></h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                        <span class="price">$250.00</span>
+                        <a href="#" class="buy-btn">Buy</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="column">
-            <div class="content"> 
-                <a href="crater.html" target="_blank">
-                    <img src="Images/Landscape/IMG_0869.jpeg", alt title="More Information">
-                </a>
-           </div>
+        <div class="prod">
+            <div class="prod-card">
+                <h2 class="name"> Crater Bromo</h2>
+                <span class="price">$250.00</span>
+                <a class="popup-btn">View details</a>
+                <img src="Images/Landscape/IMG_0869.jpeg" class="product-img" alt title="">
+            </div>
+            <div class="popup-view">
+                <div class="popup-card">
+                    <a> <i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                        <img src="Images/Landscape/IMG_0869.jpeg" alt title="">
+                    </div>
+                    <div class="info">
+                        <h2>Crater Bromo<br><span>East Java, Indonesia (2018)</span></h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                        <span class="price">$250.00</span>
+                        <a href="#" class="buy-btn">Buy</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="column">
-            <div class="content"> 
-                <a href="dome.html" target="_blank">
-                    <img src="Images/Landscape/IMG_7160.jpeg", alt title="More Information">
-                </a>
+        <div class="prod">
+            <div class="prod-card">
+                <h2 class="name"> The Bolshoy Ice Dome</h2>
+                <span class="price">$250.00</span>
+                <a class="popup-btn">View details</a>
+                <img src="Images/Landscape/IMG_7160.jpg" class="product-img" alt title="">
+            </div>
+            <div class="popup-view">
+                <div class="popup-card">
+                    <a> <i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                        <img src="Images/Landscape/IMG_7160.jpg" alt title="">
+                    </div>
+                    <div class="info">
+                        <h2>The Bolshoy Ice Dome<br><span>Sochi, Russia (2017)</span></h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                        <span class="price">$250.00</span>
+                        <a href="#" class="buy-btn">Buy</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    
+
+    <script type="text/javascript">
+        var popupViews = document.querySelectorAll(".popup-view");
+        var popupBtns = document.querySelectorAll(".popup-btn");
+        var closeBtns = document.querySelectorAll(".close-btn");
+        
+        //javascript for details button
+        var popup = function(popupClick){
+            popupViews[popupClick].classList.add('active');
+        }
+
+        popupBtns.forEach((popupBtn, i)=> {
+            popupBtn.addEventListener("click",()=>{
+                popup(i);
+            });
+        });
+
+        //javascript for close button
+        closeBtns.forEach((closeBtn)=>{
+            closeBtn.addEventListener("click",()=> {
+                popupViews.forEach((popupView)=> {
+                    popupView.classList.remove('active');
+                });
+            });
+        });
+    </script>  
+    </div>
 </body>
-    <hr>
-    <a>©Febryan Ibadurrahman, All Rights Reserved</a>
+
 </html>
