@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-
+/*For Navbar*/
 .img-container{
     height: 50px;
     display: inline-block;
@@ -284,6 +284,7 @@
         flex-direction:column;
         width: 550px;
         height: auto;
+        max-height: 700px;
     }
     .prod .popup-card .product-img{
         z-index: 3;
@@ -299,6 +300,8 @@
     .prod .popup-card .product-img img{
         left: initial;
         max-width: 100%;
+        height: auto;
+        max-height: 350px;
     }
     .prod .popup-card .info{
         width: 90%;

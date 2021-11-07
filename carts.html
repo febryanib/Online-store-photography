@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head >
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Carts</title>
+        <link rel="stylesheet" href="carts-style.css">
+        <link href="bootstrap-min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">    
+        
+    </head>
+    <body>
+        <nav class="navbar">
+            <a class="navbar-brand">
+              <img class="img-container" src="Images/logo.png" alt title="Main Menu">
+        
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Main menu <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="catalogs.html">Catalogs</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="carts.html">Order</a>
+                </li>
+              </ul>
+        </nav>
+
+
+          <div class="container">
+            <div class="title">
+                <h2>Product Order Form</h2>
+            </div>
+          <div class="d-flex">
+            <form action="" method="">
+              <label>
+                <span class="txt-above">Full Name</span>
+                <input type="text" name="fname">
+              </label>
+              <label>
+                <span class="txt-above">Street</span>
+                <input type="text" name="houseadd" placeholder="House number and street name" required>
+              </label>
+              <label>
+                <span class="txt-above">City</span>
+                <input type="text" name="city" placeholder="(Only supporting Russian Federation)"> 
+              </label>
+              <label>
+                <span class="txt-above">Postcode / ZIP </span>
+                <input type="text" name="city"> 
+              </label>
+              <label>
+                <span class="txt-above">Phone </span>
+                <input type="tel" name="city"> 
+              </label>
+              <label>
+                <span class="txt-above">Email Address </span>
+                <input type="email" name="city"> 
+              </label>
+            </form>
+
+
+            <div class="Yorder">
+              <table>
+                <tr>
+                  <th colspan="2">Your order</th>
+                </tr>
+                <tr>
+                  <td>Product Name x 2(Qty)</td>
+                  <td>$88.00</td>
+                </tr>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$88.00</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>Free shipping</td>
+                </tr>
+              </table><br>
+              <div class="btn">
+                <input type="radio" name="dbt" value="dbt" checked> Direct Bank Transfer
+              </div>
+              <div class="btn">
+                <input type="radio" name="dbt" value="cd"> Cash on Delivery
+              </div>
+              <div>
+                <button type="button">Place Order</button>
+              </div>
+            </div><!-- Yorder -->
+           </div><!--d-flex-->
+          </div>
+    </body>
+</html>

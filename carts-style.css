@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+}
+/*Navbar*/
+.img-container{
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+.img-wrapper{
+    text-align: center;
+    width:100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #141414ce;        
+}
+.nav{
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255);
+}
+.navbar .nav-link{
+    color: rgb(192, 188, 188);
+    text-decoration: none;  
+}
+.navbar a:hover{
+    color:rgb(139, 139, 139);
+}
+.navbar ul{
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+}
+.navbar li{
+    list-style-type:none;
+    text-align: center;
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+/*Order Form*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+
+.container{
+  width: fit-content;
+  height: fit-content;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 1000px)
+{
+.container{
+    max-width: auto;
+    flex-direction: column;
+  }
+label, table{
+    margin: 15px;
+    flex-direction: column;
+}
+
+}
+
+
+.d-flex{
+  display: flex;
+  flex-direction: row;
+  background: #f1f1f1;
+  border-radius: 0 0 5px 5px;
+  padding: 25px;
+}
+form{
+  flex: 4;
+}
+.Yorder{
+  flex: 2;
+}
+/****** ADD STYLE FOR PRODUCT ORDER******/
+.container .title{
+    text-align: center;
+    padding: 10px;
+}
+h2{
+  margin: 0;
+  padding-left: 15px; 
+}
+
+label, table{
+  display: block;
+  margin: 15px;
+}
+label>span{
+  float: left;
+  width: 100%;
+  margin-top: 12px;
+  padding-right: 10px;
+}
+input[type="text"], input[type="tel"], input[type="email"], select
+{
+  width: 70%;
+  height: 30px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dadada;
+  color: #888;
+}
+select{
+  width: 72%;
+  height: 45px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.Yorder{
+  margin-top: 15px;
+  height: auto;
+  padding: 20px;
+  border: 1px solid #dadada;
+}
+table{
+  margin: 0;
+  padding: 0;
+}
+th{
+  border-bottom: 1px solid #dadada;
+  padding: 10px 0;
+}
+tr>td:nth-child(1){
+  text-align: left;
+  color: #2d2d2a;
+}
+tr>td:nth-child(2){
+  text-align: right;
+  color: #52ad9c;
+}
+td{
+  border-bottom: 1px solid #dadada;
+  padding: 25px 25px 25px 0;
+}
+
+p{
+  display: block;
+  color: #888;
+  margin: 0;
+  padding-left: 25px;
+}
+.Yorder>div{
+  padding: 15px 0; 
+}
+
+button{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background: #52ad9c;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+button:hover{
+  cursor: pointer;
+  background: #428a7d;
+}
